@@ -1,0 +1,1 @@
+/script local c=function(a) local f,d a="Mana "..a for i=0,4 do for k=1,GetContainerNumSlots(i) do d=GetContainerItemLink(i,k) or "" if strfind(d,a) then f = 1 end end end if not f then CastSpellByName("Conjure "..a) end end c "Ruby" c "Citrine" c "Jade"
