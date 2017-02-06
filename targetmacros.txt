@@ -1,2 +1,2 @@
 /script TargetByName("Black Slayer",true);
-/script if UnitIsDeadOrGhost("target") then TargetUnit("") else CastSpellByName("Fire Blast(Rank 6)")
+/script if UnitIsDeadOrGhost("target") then ClearTarget() else CastSpellByName("Fire Blast(Rank 6)")end
